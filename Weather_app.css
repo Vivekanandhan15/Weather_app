@@ -1,0 +1,101 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body{
+  background-color: #222;
+}
+.container{
+  width : 90%;
+  max-width: 470px;
+  background: rgb(0,254,186);
+  background: linear-gradient(90deg, rgba(0,254,186,1) 0%, rgba(94,84,138,1) 100%);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 5px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px; 
+}
+  
+.search input ::placeholder{
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
+}
+.search button{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+.search button img{
+  width: 16px;
+}
+
+.weathering{
+  width: 170px;
+  margin-top: 30px;
+}
+
+.temp{
+  font-size: 80px;
+  font-weight: 500;
+}
+.city{
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.col img{
+  width: 40px;
+  margin-right: 10px;
+}
+.humidity , .wind{
+  font-size: 28px;
+  margin-top: -6px;
+} 
+
+.weather{
+  display: none;
+}
